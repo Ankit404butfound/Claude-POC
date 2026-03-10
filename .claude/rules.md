@@ -1,8 +1,8 @@
 # OMS Rules (Canonical)
 
 ## Context Loading
-- Load `.claude/context/global.md` first.
-- Load only relevant `services/<service>/claude.md` files.
+- `claude.md` contains global context, load it first, and only read that file initially.
+- Load only relevant `services/<service>/claude.md` files when needed and asked.
 - Do not load all services unless explicitly requested.
 - Ask for specific missing files when context is insufficient.
 

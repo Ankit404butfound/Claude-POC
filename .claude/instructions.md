@@ -1,7 +1,7 @@
 # Default Instructions
 
 Use these files in order:
-1. `.claude/context/global.md`
+1. `claude.md`
 2. Relevant `services/<service>/claude.md` files only
 3. `.claude/rules.md` for all canonical rules
 
